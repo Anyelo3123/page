@@ -58,15 +58,47 @@ a:hover{
     text-decoration: underline;
 }
 
-.registrarse{
+
+.Registrarse{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.Registrarse h1{
     text-align: center;
-    margin-top: 20px;
-    font-size: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
     color: #333;
+    font-size: 30px;
     
 }
 
+.Registrarse input[type="text"], .Registrarse input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
+.Registrarse input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 0;
+    border-radius: 5px;
+    background-color: #1abc9c;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
 
-
+.Registrarse input[type="submit"]:hover{
+    background-color: #13a89e;
+}
 
